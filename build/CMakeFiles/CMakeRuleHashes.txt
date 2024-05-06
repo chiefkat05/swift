@@ -1,0 +1,21 @@
+# Hashes of file build rules.
+215c18f3a19e843cf690fd01c1a7ce70 CMAKE_BINARY_DIR/CMakeFiles/uninstall
+3dffb93a16350e706bc8bc6e3cfe827c CMAKE_BINARY_DIR/src/CMakeFiles/update_mappings
+9f5029ffe10c8871a7c41c58acdb3f49 CMAKE_BINARY_DIR/src/fractional-scale-v1-client-protocol-code.h
+124e392ec14f298584b747a216b4dd92 CMAKE_BINARY_DIR/src/fractional-scale-v1-client-protocol.h
+8650352e8029f4e2a34db0941413aea4 CMAKE_BINARY_DIR/src/idle-inhibit-unstable-v1-client-protocol-code.h
+f8cf049688c123852bbc0e6daeadf3b8 CMAKE_BINARY_DIR/src/idle-inhibit-unstable-v1-client-protocol.h
+985946bdd990d27bc81214f1e8bb8cdb CMAKE_BINARY_DIR/src/pointer-constraints-unstable-v1-client-protocol-code.h
+9caa46aa4e7894ea6c99610a14a0a439 CMAKE_BINARY_DIR/src/pointer-constraints-unstable-v1-client-protocol.h
+04457b592bd566b9ca96b764ceec606f CMAKE_BINARY_DIR/src/relative-pointer-unstable-v1-client-protocol-code.h
+5a2b35956e7768c91dc1dea6791931e8 CMAKE_BINARY_DIR/src/relative-pointer-unstable-v1-client-protocol.h
+c0b249c99bda06dca1c63a58a93703ae CMAKE_BINARY_DIR/src/viewporter-client-protocol-code.h
+3fccb9f92d2a6dc1f0d2548025bafe42 CMAKE_BINARY_DIR/src/viewporter-client-protocol.h
+02cce476075779c87f06d40862d9ca5c CMAKE_BINARY_DIR/src/wayland-client-protocol-code.h
+c8000d9c7a2d5731e78046a6218334f2 CMAKE_BINARY_DIR/src/wayland-client-protocol.h
+ada7b822861627cf7770db5d9252e095 CMAKE_BINARY_DIR/src/xdg-activation-v1-client-protocol-code.h
+cd9b7b935bdfc2a8250f3405f32df5e4 CMAKE_BINARY_DIR/src/xdg-activation-v1-client-protocol.h
+39f437e871e8a256fc109effd8dc7bb8 CMAKE_BINARY_DIR/src/xdg-decoration-unstable-v1-client-protocol-code.h
+35963a2b42add327564f45063d1a3251 CMAKE_BINARY_DIR/src/xdg-decoration-unstable-v1-client-protocol.h
+b092a446f9695e5ecadd7a76c5bb318c CMAKE_BINARY_DIR/src/xdg-shell-client-protocol-code.h
+a561915b5270559ff24167d8c7e89cf2 CMAKE_BINARY_DIR/src/xdg-shell-client-protocol.h
