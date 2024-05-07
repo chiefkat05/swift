@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/engine.dir/events.cpp.o"
+  "CMakeFiles/engine.dir/events.cpp.o.d"
   "CMakeFiles/engine.dir/gfx/shader.cpp.o"
   "CMakeFiles/engine.dir/gfx/shader.cpp.o.d"
   "CMakeFiles/engine.dir/main.cpp.o"

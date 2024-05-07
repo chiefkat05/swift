@@ -83,10 +83,24 @@ CMakeFiles/engine.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/engine.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chiefkat/Documents/vscodeprojects/swift/main.cpp -o CMakeFiles/engine.dir/main.cpp.s
 
+CMakeFiles/engine.dir/events.cpp.o: CMakeFiles/engine.dir/flags.make
+CMakeFiles/engine.dir/events.cpp.o: /home/chiefkat/Documents/vscodeprojects/swift/events.cpp
+CMakeFiles/engine.dir/events.cpp.o: CMakeFiles/engine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chiefkat/Documents/vscodeprojects/swift/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/engine.dir/events.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/engine.dir/events.cpp.o -MF CMakeFiles/engine.dir/events.cpp.o.d -o CMakeFiles/engine.dir/events.cpp.o -c /home/chiefkat/Documents/vscodeprojects/swift/events.cpp
+
+CMakeFiles/engine.dir/events.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/engine.dir/events.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chiefkat/Documents/vscodeprojects/swift/events.cpp > CMakeFiles/engine.dir/events.cpp.i
+
+CMakeFiles/engine.dir/events.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/engine.dir/events.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chiefkat/Documents/vscodeprojects/swift/events.cpp -o CMakeFiles/engine.dir/events.cpp.s
+
 CMakeFiles/engine.dir/gfx/shader.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/gfx/shader.cpp.o: /home/chiefkat/Documents/vscodeprojects/swift/gfx/shader.cpp
 CMakeFiles/engine.dir/gfx/shader.cpp.o: CMakeFiles/engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chiefkat/Documents/vscodeprojects/swift/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/engine.dir/gfx/shader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chiefkat/Documents/vscodeprojects/swift/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/engine.dir/gfx/shader.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/engine.dir/gfx/shader.cpp.o -MF CMakeFiles/engine.dir/gfx/shader.cpp.o.d -o CMakeFiles/engine.dir/gfx/shader.cpp.o -c /home/chiefkat/Documents/vscodeprojects/swift/gfx/shader.cpp
 
 CMakeFiles/engine.dir/gfx/shader.cpp.i: cmake_force
@@ -100,7 +114,7 @@ CMakeFiles/engine.dir/gfx/shader.cpp.s: cmake_force
 CMakeFiles/engine.dir/nms/glad/src/glad.c.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/nms/glad/src/glad.c.o: /home/chiefkat/Documents/vscodeprojects/swift/nms/glad/src/glad.c
 CMakeFiles/engine.dir/nms/glad/src/glad.c.o: CMakeFiles/engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chiefkat/Documents/vscodeprojects/swift/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/engine.dir/nms/glad/src/glad.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chiefkat/Documents/vscodeprojects/swift/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/engine.dir/nms/glad/src/glad.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/engine.dir/nms/glad/src/glad.c.o -MF CMakeFiles/engine.dir/nms/glad/src/glad.c.o.d -o CMakeFiles/engine.dir/nms/glad/src/glad.c.o -c /home/chiefkat/Documents/vscodeprojects/swift/nms/glad/src/glad.c
 
 CMakeFiles/engine.dir/nms/glad/src/glad.c.i: cmake_force
@@ -114,6 +128,7 @@ CMakeFiles/engine.dir/nms/glad/src/glad.c.s: cmake_force
 # Object files for target engine
 engine_OBJECTS = \
 "CMakeFiles/engine.dir/main.cpp.o" \
+"CMakeFiles/engine.dir/events.cpp.o" \
 "CMakeFiles/engine.dir/gfx/shader.cpp.o" \
 "CMakeFiles/engine.dir/nms/glad/src/glad.c.o"
 
@@ -121,6 +136,7 @@ engine_OBJECTS = \
 engine_EXTERNAL_OBJECTS =
 
 engine: CMakeFiles/engine.dir/main.cpp.o
+engine: CMakeFiles/engine.dir/events.cpp.o
 engine: CMakeFiles/engine.dir/gfx/shader.cpp.o
 engine: CMakeFiles/engine.dir/nms/glad/src/glad.c.o
 engine: CMakeFiles/engine.dir/build.make
@@ -128,7 +144,7 @@ engine: CMAKE_BINARY_DIR/src/libglfw3.a
 engine: /usr/lib/librt.a
 engine: /usr/lib/libm.so
 engine: CMakeFiles/engine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/chiefkat/Documents/vscodeprojects/swift/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable engine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/chiefkat/Documents/vscodeprojects/swift/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable engine"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/engine.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

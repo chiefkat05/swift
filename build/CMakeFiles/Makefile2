@@ -133,12 +133,12 @@ CMAKE_BINARY_DIR/src/clean: CMAKE_BINARY_DIR/src/CMakeFiles/update_mappings.dir/
 CMakeFiles/engine.dir/all: CMAKE_BINARY_DIR/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/chiefkat/Documents/vscodeprojects/swift/build/CMakeFiles --progress-num=1,2,3,4 "Built target engine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/chiefkat/Documents/vscodeprojects/swift/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target engine"
 .PHONY : CMakeFiles/engine.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/engine.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chiefkat/Documents/vscodeprojects/swift/build/CMakeFiles 49
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chiefkat/Documents/vscodeprojects/swift/build/CMakeFiles 50
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/engine.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chiefkat/Documents/vscodeprojects/swift/build/CMakeFiles 0
 .PHONY : CMakeFiles/engine.dir/rule
@@ -185,7 +185,7 @@ CMAKE_BINARY_DIR/CMakeFiles/uninstall.dir/clean:
 CMAKE_BINARY_DIR/src/CMakeFiles/glfw.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMAKE_BINARY_DIR/src/CMakeFiles/glfw.dir/build.make CMAKE_BINARY_DIR/src/CMakeFiles/glfw.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMAKE_BINARY_DIR/src/CMakeFiles/glfw.dir/build.make CMAKE_BINARY_DIR/src/CMakeFiles/glfw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/chiefkat/Documents/vscodeprojects/swift/build/CMakeFiles --progress-num=5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49 "Built target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/chiefkat/Documents/vscodeprojects/swift/build/CMakeFiles --progress-num=6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50 "Built target glfw"
 .PHONY : CMAKE_BINARY_DIR/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.
@@ -211,7 +211,7 @@ CMAKE_BINARY_DIR/src/CMakeFiles/glfw.dir/clean:
 CMAKE_BINARY_DIR/src/CMakeFiles/update_mappings.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMAKE_BINARY_DIR/src/CMakeFiles/update_mappings.dir/build.make CMAKE_BINARY_DIR/src/CMakeFiles/update_mappings.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMAKE_BINARY_DIR/src/CMakeFiles/update_mappings.dir/build.make CMAKE_BINARY_DIR/src/CMakeFiles/update_mappings.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/chiefkat/Documents/vscodeprojects/swift/build/CMakeFiles --progress-num=50 "Built target update_mappings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/chiefkat/Documents/vscodeprojects/swift/build/CMakeFiles --progress-num=51 "Built target update_mappings"
 .PHONY : CMAKE_BINARY_DIR/src/CMakeFiles/update_mappings.dir/all
 
 # Build rule for subdir invocation for target.

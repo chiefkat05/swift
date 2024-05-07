@@ -226,6 +226,30 @@ docs/fast:
 	$(MAKE) $(MAKESILENT) -f CMAKE_BINARY_DIR/docs/CMakeFiles/docs.dir/build.make CMAKE_BINARY_DIR/docs/CMakeFiles/docs.dir/build
 .PHONY : docs/fast
 
+events.o: events.cpp.o
+.PHONY : events.o
+
+# target to build an object file
+events.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/events.cpp.o
+.PHONY : events.cpp.o
+
+events.i: events.cpp.i
+.PHONY : events.i
+
+# target to preprocess a source file
+events.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/events.cpp.i
+.PHONY : events.cpp.i
+
+events.s: events.cpp.s
+.PHONY : events.s
+
+# target to generate assembly for a file
+events.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/events.cpp.s
+.PHONY : events.cpp.s
+
 gfx/shader.o: gfx/shader.cpp.o
 .PHONY : gfx/shader.o
 
@@ -315,6 +339,9 @@ help:
 	@echo "... update_mappings"
 	@echo "... engine"
 	@echo "... glfw"
+	@echo "... events.o"
+	@echo "... events.i"
+	@echo "... events.s"
 	@echo "... gfx/shader.o"
 	@echo "... gfx/shader.i"
 	@echo "... gfx/shader.s"

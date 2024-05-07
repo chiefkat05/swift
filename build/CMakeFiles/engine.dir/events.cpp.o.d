@@ -1,7 +1,6 @@
-CMakeFiles/engine.dir/main.cpp.o: \
- /home/chiefkat/Documents/vscodeprojects/swift/main.cpp \
+CMakeFiles/engine.dir/events.cpp.o: \
+ /home/chiefkat/Documents/vscodeprojects/swift/events.cpp \
  /usr/include/stdc-predef.h \
- /home/chiefkat/Documents/vscodeprojects/swift/graphics.h \
  /home/chiefkat/Documents/vscodeprojects/swift/events.h \
  /usr/include/c++/13.2.1/iostream \
  /usr/include/c++/13.2.1/bits/requires_hosted.h \

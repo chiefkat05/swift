@@ -1,8 +1,5 @@
 
-#include <iostream>
-#include <vector>
-#include <glad/glad.h>
-#include <GLFW/glfw3.h>
+#include "events.h"
 
 struct shader
 {
@@ -17,36 +14,14 @@ void framebuffer_size_callback(GLFWwindow *win, int width, int height)
     glViewport(50, 50, width - 100, height - 100);
 }
 
+event_handler ehandler;
+
+void key_callback(GLFWwindow *window, int key, int scancode, int action, int mods)
+{
+    ehandler.key_callback(window, key, scancode, action, mods);
+}
 // when British person sees images on the screen
 void graphics_init()
 {
-    glfwInit();
 
-    GLFWwindow *window = glfwCreateWindow(1280, 720, "swift", NULL, NULL);
-    if (window == NULL)
-    {
-        std::cerr << "glfw window failed to open\n";
-        glfwTerminate();
-        return;
-    }
-    glfwMakeContextCurrent(window);
-
-    gladLoadGL();
-    // gladLoadGLLoader((GLADloadproc)glfwGetProcAddress);
-
-    // glViewport(50, 50, 1180, 620);
-    // glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
-
-    while (!glfwWindowShouldClose(window))
-    {
-        glfwSwapBuffers(window);
-        glfwPollEvents();
-
-        if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
-        {
-            glfwSetWindowShouldClose(window, true);
-        }
-    }
-
-    glfwTerminate();
 }
