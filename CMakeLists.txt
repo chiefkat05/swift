@@ -8,5 +8,5 @@ add_subdirectory( "${PROJECT_SOURCE_DIR}/../../CxxDeps/glfw-3.4/"  CMAKE_BINARY_
 
 include_directories("${PROJECT_SOURCE_DIR}/nms/glad/include/")
 
-add_executable(engine main.cpp events.cpp "${PROJECT_SOURCE_DIR}/gfx/shader.cpp" "${PROJECT_SOURCE_DIR}/nms/glad/src/glad.c")
+add_executable(engine main.cpp events.cpp "${PROJECT_SOURCE_DIR}/gfx/graphics.cpp" "${PROJECT_SOURCE_DIR}/nms/glad/src/glad.c")
 target_link_libraries(engine glfw)

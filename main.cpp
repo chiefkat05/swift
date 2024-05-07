@@ -1,4 +1,4 @@
-#include "graphics.h"
+#include "./gfx/graphics.h"
 
 int main()
 {
@@ -12,7 +12,7 @@ int main()
     {
         std::cerr << "glfw window failed to open\n";
         glfwTerminate();
-        return;
+        return -1;
     }
     glfwMakeContextCurrent(window);
 
@@ -23,21 +23,24 @@ int main()
 
     glfwSetKeyCallback(window, key_callback);
 
-    graphics_init();
+    graphics_init ginit;
     while (!glfwWindowShouldClose(window))
     {
         glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT);
-        glfwSwapBuffers(window);
 
         ehandler.poll(); // for future reference, JAMES, this does not actually handle input 'requests'. It is used for handling messages SENT TO THE EVENT HANDLER. Stupid.
 
         glfwPollEvents();
 
+        ginit.update();
+
         std::cout << "a key is " << ehandler.requestKeyState(GLFW_KEY_A) << "\n";
 
         if (ehandler.requestKeyState(GLFW_KEY_ESCAPE))
             glfwSetWindowShouldClose(window, true);
+
+        glfwSwapBuffers(window);
     }
 
     glfwTerminate();

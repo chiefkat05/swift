@@ -22,8 +22,9 @@ struct event
     std::string data;
 };
 
-struct event_handler
+class event_handler
 {
+public:
     void send(event ev);
     int requestKeyState(int key);
     event requestObjectState(int objID);
