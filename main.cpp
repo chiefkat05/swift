@@ -1,4 +1,16 @@
-#include "./gfx/graphics.h"
+#include "graphics.h"
+
+void framebuffer_size_callback(GLFWwindow *win, int width, int height)
+{
+    glViewport(0, 0, width, height);
+}
+
+event_handler ehandler;
+
+void key_callback(GLFWwindow *window, int key, int scancode, int action, int mods)
+{
+    ehandler.key_callback(window, key, scancode, action, mods);
+}
 
 int main()
 {
@@ -23,7 +35,9 @@ int main()
 
     glfwSetKeyCallback(window, key_callback);
 
+    shader shad("./shaders/main.vs", "./shaders/main.fs");
     graphics_init ginit;
+
     while (!glfwWindowShouldClose(window))
     {
         glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
@@ -33,7 +47,8 @@ int main()
 
         glfwPollEvents();
 
-        ginit.update();
+        shad.use();
+        ginit.draw();
 
         std::cout << "a key is " << ehandler.requestKeyState(GLFW_KEY_A) << "\n";
 

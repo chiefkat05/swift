@@ -97,19 +97,19 @@ CMakeFiles/engine.dir/events.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/engine.dir/events.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chiefkat/Documents/vscodeprojects/swift/events.cpp -o CMakeFiles/engine.dir/events.cpp.s
 
-CMakeFiles/engine.dir/gfx/shader.cpp.o: CMakeFiles/engine.dir/flags.make
-CMakeFiles/engine.dir/gfx/shader.cpp.o: /home/chiefkat/Documents/vscodeprojects/swift/gfx/shader.cpp
-CMakeFiles/engine.dir/gfx/shader.cpp.o: CMakeFiles/engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chiefkat/Documents/vscodeprojects/swift/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/engine.dir/gfx/shader.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/engine.dir/gfx/shader.cpp.o -MF CMakeFiles/engine.dir/gfx/shader.cpp.o.d -o CMakeFiles/engine.dir/gfx/shader.cpp.o -c /home/chiefkat/Documents/vscodeprojects/swift/gfx/shader.cpp
+CMakeFiles/engine.dir/graphics.cpp.o: CMakeFiles/engine.dir/flags.make
+CMakeFiles/engine.dir/graphics.cpp.o: /home/chiefkat/Documents/vscodeprojects/swift/graphics.cpp
+CMakeFiles/engine.dir/graphics.cpp.o: CMakeFiles/engine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chiefkat/Documents/vscodeprojects/swift/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/engine.dir/graphics.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/engine.dir/graphics.cpp.o -MF CMakeFiles/engine.dir/graphics.cpp.o.d -o CMakeFiles/engine.dir/graphics.cpp.o -c /home/chiefkat/Documents/vscodeprojects/swift/graphics.cpp
 
-CMakeFiles/engine.dir/gfx/shader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/engine.dir/gfx/shader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chiefkat/Documents/vscodeprojects/swift/gfx/shader.cpp > CMakeFiles/engine.dir/gfx/shader.cpp.i
+CMakeFiles/engine.dir/graphics.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/engine.dir/graphics.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chiefkat/Documents/vscodeprojects/swift/graphics.cpp > CMakeFiles/engine.dir/graphics.cpp.i
 
-CMakeFiles/engine.dir/gfx/shader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/engine.dir/gfx/shader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chiefkat/Documents/vscodeprojects/swift/gfx/shader.cpp -o CMakeFiles/engine.dir/gfx/shader.cpp.s
+CMakeFiles/engine.dir/graphics.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/engine.dir/graphics.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chiefkat/Documents/vscodeprojects/swift/graphics.cpp -o CMakeFiles/engine.dir/graphics.cpp.s
 
 CMakeFiles/engine.dir/nms/glad/src/glad.c.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/nms/glad/src/glad.c.o: /home/chiefkat/Documents/vscodeprojects/swift/nms/glad/src/glad.c
@@ -129,7 +129,7 @@ CMakeFiles/engine.dir/nms/glad/src/glad.c.s: cmake_force
 engine_OBJECTS = \
 "CMakeFiles/engine.dir/main.cpp.o" \
 "CMakeFiles/engine.dir/events.cpp.o" \
-"CMakeFiles/engine.dir/gfx/shader.cpp.o" \
+"CMakeFiles/engine.dir/graphics.cpp.o" \
 "CMakeFiles/engine.dir/nms/glad/src/glad.c.o"
 
 # External object files for target engine
@@ -137,7 +137,7 @@ engine_EXTERNAL_OBJECTS =
 
 engine: CMakeFiles/engine.dir/main.cpp.o
 engine: CMakeFiles/engine.dir/events.cpp.o
-engine: CMakeFiles/engine.dir/gfx/shader.cpp.o
+engine: CMakeFiles/engine.dir/graphics.cpp.o
 engine: CMakeFiles/engine.dir/nms/glad/src/glad.c.o
 engine: CMakeFiles/engine.dir/build.make
 engine: CMAKE_BINARY_DIR/src/libglfw3.a

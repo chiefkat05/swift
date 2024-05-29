@@ -1,5 +1,5 @@
-CMakeFiles/engine.dir/main.cpp.o: \
- /home/chiefkat/Documents/vscodeprojects/swift/main.cpp \
+CMakeFiles/engine.dir/graphics.cpp.o: \
+ /home/chiefkat/Documents/vscodeprojects/swift/graphics.cpp \
  /usr/include/stdc-predef.h \
  /home/chiefkat/Documents/vscodeprojects/swift/graphics.h \
  /home/chiefkat/Documents/vscodeprojects/swift/events.h \
@@ -142,4 +142,8 @@ CMakeFiles/engine.dir/main.cpp.o: \
  /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/stdint-uintn.h \
  /usr/include/bits/stdint-least.h \
- /home/chiefkat/Documents/CxxDeps/glfw-3.4/include/GLFW/glfw3.h
+ /home/chiefkat/Documents/CxxDeps/glfw-3.4/include/GLFW/glfw3.h \
+ /usr/include/c++/13.2.1/fstream /usr/include/c++/13.2.1/bits/codecvt.h \
+ /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/basic_file.h \
+ /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/c++io.h \
+ /usr/include/c++/13.2.1/bits/fstream.tcc

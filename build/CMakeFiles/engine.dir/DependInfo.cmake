@@ -10,7 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/chiefkat/Documents/vscodeprojects/swift/nms/glad/src/glad.c" "CMakeFiles/engine.dir/nms/glad/src/glad.c.o" "gcc" "CMakeFiles/engine.dir/nms/glad/src/glad.c.o.d"
   "/home/chiefkat/Documents/vscodeprojects/swift/events.cpp" "CMakeFiles/engine.dir/events.cpp.o" "gcc" "CMakeFiles/engine.dir/events.cpp.o.d"
-  "/home/chiefkat/Documents/vscodeprojects/swift/gfx/shader.cpp" "CMakeFiles/engine.dir/gfx/shader.cpp.o" "gcc" "CMakeFiles/engine.dir/gfx/shader.cpp.o.d"
+  "/home/chiefkat/Documents/vscodeprojects/swift/graphics.cpp" "CMakeFiles/engine.dir/graphics.cpp.o" "gcc" "CMakeFiles/engine.dir/graphics.cpp.o.d"
   "/home/chiefkat/Documents/vscodeprojects/swift/main.cpp" "CMakeFiles/engine.dir/main.cpp.o" "gcc" "CMakeFiles/engine.dir/main.cpp.o.d"
   )
 

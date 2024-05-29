@@ -250,29 +250,29 @@ events.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/events.cpp.s
 .PHONY : events.cpp.s
 
-gfx/shader.o: gfx/shader.cpp.o
-.PHONY : gfx/shader.o
+graphics.o: graphics.cpp.o
+.PHONY : graphics.o
 
 # target to build an object file
-gfx/shader.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/gfx/shader.cpp.o
-.PHONY : gfx/shader.cpp.o
+graphics.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/graphics.cpp.o
+.PHONY : graphics.cpp.o
 
-gfx/shader.i: gfx/shader.cpp.i
-.PHONY : gfx/shader.i
+graphics.i: graphics.cpp.i
+.PHONY : graphics.i
 
 # target to preprocess a source file
-gfx/shader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/gfx/shader.cpp.i
-.PHONY : gfx/shader.cpp.i
+graphics.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/graphics.cpp.i
+.PHONY : graphics.cpp.i
 
-gfx/shader.s: gfx/shader.cpp.s
-.PHONY : gfx/shader.s
+graphics.s: graphics.cpp.s
+.PHONY : graphics.s
 
 # target to generate assembly for a file
-gfx/shader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/gfx/shader.cpp.s
-.PHONY : gfx/shader.cpp.s
+graphics.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/graphics.cpp.s
+.PHONY : graphics.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -342,9 +342,9 @@ help:
 	@echo "... events.o"
 	@echo "... events.i"
 	@echo "... events.s"
-	@echo "... gfx/shader.o"
-	@echo "... gfx/shader.i"
-	@echo "... gfx/shader.s"
+	@echo "... graphics.o"
+	@echo "... graphics.i"
+	@echo "... graphics.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
